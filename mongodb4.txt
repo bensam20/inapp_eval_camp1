@@ -1,0 +1,100 @@
+mongoeval> db.details.find()
+[
+  {
+    _id: ObjectId("62d13aac28ec31f54485daef"),
+    OrderId: 1,
+    OrderDate: 1986,
+    OderPrice: 270,
+    OrderQuantity: 2,
+    CustomerName: 'Jayesh',
+    productId: 783,
+    Manufacturedate: 2003,
+    ProductName: 'LED TV',
+    ManufrName: 'Sony'
+  },
+  {
+    _id: ObjectId("62d13bc828ec31f54485daf0"),
+    OrderId: 2,
+    OrderDate: 2001,
+    OderPrice: 280,
+    OrderQuantity: 4,
+    CustomerName: 'Abhilash',
+    productId: 145,
+    Manufacturedate: 1984,
+    ProductName: 'MobilePhone',
+    ManufrName: 'Samsung'
+  },
+  {
+    _id: ObjectId("62d13c3628ec31f54485daf1"),
+    OrderId: 2,
+    OrderDate: 2001,
+    OderPrice: 280,
+    OrderQuantity: 4,
+    CustomerName: 'Abhilash',
+    productId: 123,
+    Manufacturedate: 2006,
+    ProductName: 'Laptop',
+    ManufrName: 'Sony'
+  },
+  {
+    _id: ObjectId("62d13c8428ec31f54485daf2"),
+    OrderId: 3,
+    OrderDate: 1999,
+    OderPrice: 600,
+    OrderQuantity: 5,
+    CustomerName: 'Lily',
+    productId: 344,
+    Manufacturedate: 2004,
+    ProductName: 'Laptop',
+    ManufrName: 'Samsung'
+  },
+  {
+    _id: ObjectId("62d13cb228ec31f54485daf3"),
+    OrderId: 3,
+    OrderDate: 1999,
+    OderPrice: 600,
+    OrderQuantity: 5,
+    CustomerName: 'Lily',
+    productId: 233,
+    Manufacturedate: 1978,
+    ProductName: 'PowerBank',
+    ManufrName: 'Sony'
+  },
+  {
+    _id: ObjectId("62d13d0d28ec31f54485daf4"),
+    OrderId: 4,
+    OrderDate: 1998,
+    OderPrice: 520,
+    OrderQuantity: 1,
+    CustomerName: 'Jayesh',
+    productId: 784,
+    Manufacturedate: 1980,
+    ProductName: 'LED TV',
+    ManufrName: 'Sony'
+  },
+  {
+    _id: ObjectId("62d13d8128ec31f54485daf5"),
+    OrderId: 5,
+    OrderDate: 1986,
+    OderPrice: 1200,
+    OrderQuantity: 4,
+    CustomerName: 'Aswathy',
+    productId: 435,
+    Manufacturedate: 2003,
+    ProductName: 'MobilePhone',
+    ManufrName: 'Samsung'
+  },
+  {
+    _id: ObjectId("62d13dba28ec31f54485daf6"),
+    OrderId: 5,
+    OrderDate: 1986,
+    OderPrice: 1200,
+    OrderQuantity: 4,
+    CustomerName: 'Aswathy',
+    productId: 267,
+    Manufacturedate: 1995,
+    ProductName: 'HeadPhone',
+    ManufrName: 'Boat'
+  }
+]
+mongoeval>
